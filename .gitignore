@@ -37,3 +37,25 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Ignore all data
+data/
+
+# Allow folder structure only
+!data/.gitkeep
+
+# Ignore models
+models/
+
+# Ignore results
+results/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
